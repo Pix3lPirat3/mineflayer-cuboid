@@ -1,37 +1,22 @@
 {
-  "name": "mineflayer-plugin-template",
+  "name": "mineflayer-cuboid",
   "version": "1.0.0",
-  "description": "A template repository for creating Mineflayer plugins using Typescript.",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "prepare": "tsc && require-self",
-    "clean": "rm -rf lib",
-    "test": "test"
-  },
+  "description": "A simple class for selecting a cuboid region in mineflayer.",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheDudeFromCI/mineflayer-plugin-template.git"
+    "url": "git+https://github.com/Pix3lPirat3/mineflayer-cuboid"
   },
   "keywords": [
     "mineflayer",
-    "plugin",
-    "template"
+    "mineflayer-cuboid"
   ],
-  "author": "TheDudeFromCI",
+  "author": "Pix3lPirat3",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheDudeFromCI/mineflayer-plugin-template/issues"
+    "url": "https://github.com/Pix3lPirat3/mineflayer-cuboid/issues"
   },
-  "homepage": "https://github.com/TheDudeFromCI/mineflayer-plugin-template#readme",
-  "dependencies": {
-    "mineflayer": "^2.21.0"
-  },
-  "devDependencies": {
-    "@types/node": "14.14.5",
-    "require-self": "0.2.3",
-    "typescript": "4.0.5"
-  },
+  "homepage": "https://github.com/Pix3lPirat3/mineflayer-cuboid#readme",
   "files": [
     "lib/**/*"
   ]
