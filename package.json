@@ -1,6 +1,6 @@
 {
   "name": "mineflayer-cuboid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple class for selecting a cuboid region in mineflayer.",
   "main": "src/index.js",
   "repository": {
