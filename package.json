@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Pix3lPirat3/mineflayer-cuboid#readme",
   "files": [
-    "lib/**/*"
-  ]
+    "src/**/*"
+  ],
+  "dependencies": {
+    "vec3": "^0.1.8"
+  }
 }
