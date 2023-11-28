@@ -23,7 +23,7 @@ npm install --save mineflayer-cuboid
 const Cuboid = require('mineflayer-cuboid');
 var v = require('vec3');
 
-let cube = Cuboid(v(0, 0, 0), v(5, 5, 5));
+let cube = new Cuboid(v(0, 0, 0), v(5, 5, 5));
 
 // Open src/index.js for functions
 ```
